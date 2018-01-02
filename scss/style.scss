@@ -1,6 +1,16 @@
+
+@function px( $px ){
+    @return $px/$designWidth*10 + rem;
+  }
+  
+  $designWidth : 640;
+
 body{
+    font-size: 16px;
     background-color: red;
     p{
         color:green;
+        font-size: px(20);
     }
+
 }
