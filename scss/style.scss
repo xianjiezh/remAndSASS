@@ -6,11 +6,11 @@
   $designWidth : 640;
 
 body{
-    font-size: 16px;
-    background-color: red;
-    p{
-        color:green;
-        font-size: px(20);
+    font-size: px(16);
+    .child{
+        width:px(320);
+        height:px(160);
+        background-color: red;
+        margin:px(50)
     }
-
 }
